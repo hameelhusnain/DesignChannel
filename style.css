@@ -107,3 +107,31 @@ h1 {
 	color: #000;
 	text-decoration: none;
 }
+
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.home__content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.home__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.home__description {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+}

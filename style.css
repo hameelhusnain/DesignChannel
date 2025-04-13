@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     overflow: hidden;
     height: 100%;
+    background: radial-gradient(circle, #000428, #004e92);
 }
 
 body {
@@ -148,11 +149,11 @@ canvas {
 .home__title {
     font-size: 4rem;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
 }
 
 .home__description {
     font-size: 1.5rem;
     margin-top: 1rem;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
